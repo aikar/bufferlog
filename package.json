@@ -7,6 +7,9 @@
     "main": "src/bufferlog.js"
   },
   "scripts": {
+    "clean": "rm -rf dist/",
+    "build": "npm run clean && babel src --out-dir dist/",
+    "prepack": "npm run clean && mkdir -p dist/ && touch dist/.npmignore &8 npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +32,12 @@
   "homepage": "https://github.com/aikar/bufferlog#readme",
   "dependencies": {},
   "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-flow": "^7.0.0",
     "flow-bin": "^0.111.1"
   }
 }
