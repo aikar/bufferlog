@@ -1,0 +1,8 @@
+[ignore]
+<PROJECT_ROOT>/dist/
+<PROJECT_ROOT>/.idea/
+
+[include]
+<PROJECT_ROOT>/src/
+
+

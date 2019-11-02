@@ -1,0 +1,34 @@
+{
+  "name": "bufferlog",
+  "version": "0.1.0",
+  "description": "Maintain a log of binary buffers to disk that can be replayed on demand. Similar technique used by MySQL BinLogs and Apache Kafka.",
+  "main": "dist/bufferlog.js",
+  "esnext": {
+    "main": "src/bufferlog.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aikar/bufferlog.git"
+  },
+  "keywords": [
+    "buffer",
+    "log",
+    "buffer log",
+    "binlog",
+    "bin log",
+    "binary log"
+  ],
+  "author": "Daniel Ennis <aikar@aikar.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aikar/bufferlog/issues"
+  },
+  "homepage": "https://github.com/aikar/bufferlog#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "flow-bin": "^0.111.1"
+  }
+}
