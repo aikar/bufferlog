@@ -30,7 +30,9 @@
     "url": "https://github.com/aikar/bufferlog/issues"
   },
   "homepage": "https://github.com/aikar/bufferlog#readme",
-  "dependencies": {},
+  "dependencies": {
+    "lockfile": "^1.0.4"
+  },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",

@@ -6,14 +6,3 @@ export type BufferLogOptions = {
     bufferLogSizeMB: number,
 }
 
-export class BufferLog {
-    _options: BufferLogOptions;
-
-    constructor(options: BufferLogOptions) {
-        this._options = options;
-    }
-
-    async _createBufferFile() {
-
-    }
-}
