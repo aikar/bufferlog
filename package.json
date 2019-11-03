@@ -2,9 +2,9 @@
   "name": "bufferlog",
   "version": "0.1.0",
   "description": "Maintain a log of binary buffers to disk that can be replayed on demand. Similar technique used by MySQL BinLogs and Apache Kafka.",
-  "main": "dist/bufferlog.js",
+  "main": "dist/BufferLog.js",
   "esnext": {
-    "main": "src/bufferlog.js"
+    "main": "src/BufferLog.js"
   },
   "scripts": {
     "clean": "rm -rf dist/",

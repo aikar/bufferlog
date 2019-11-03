@@ -1,8 +1,15 @@
 /** @flow */
 
-import type {BufferLogOptions} from "./bufferlog";
 import {BufferLogFile} from "./BufferLogFile";
 import path from "path";
+
+
+export type BufferLogOptions = {
+    directory: string,
+    filePrefix: string,
+    bufferLogSizeMB: number,
+}
+
 
 export class BufferLog {
     _options: BufferLogOptions;
